@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hauz.app - projektowanie autorskich domów</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navibar -->
+  <div class="position-top black-bg">
+    <div class="position-left padding32">
+      <a href="./main.html" class=" white text-logo padding-center" style="position: relative;">
+        Hauz.app
+      </a>
+    </div>
+    <div class="position-right full-height padding16 hide-small hide-medium">
+      <a href="./about-us.html" class="white button-navibar">O NAS</a>
+      <a href="./service.html" class="white button-navibar">USŁUGI</a>
+      <a href="./price-list.html" class="white button-navibar">CENNIK</a>
+      <a href="./contact.html" class="white button-navibar">KONTAKT</a>
+      <a href="./blog.html" class="white button-navibar">BLOG</a>
+    </div>
+    <div class="position-right dropdown hide-large">
+        <a href="javascript:void(0)" onclick="openMenu()" class="white button-navibar" id="hamburger">
+          MENU
+        </a>
+    </div>
+    <nav class="black-bg menu-text hide-large dropdown-content" id="dropdownMenu">
+      <a href="./about-us.html" class="white button-navibar">-O NAS</a>
+      <a href="./service.html" class="white button-navibar">-USŁUGI</a>
+      <a href="./price-list.html" class="white button-navibar">-CENNIK</a>
+      <a href="./contact.html" class="white button-navibar">-KONTAKT</a>
+      <a href="./blog.html" class="white button-navibar">-BLOG</a>
+    </nav>
+  </div>
+
+
+  <!-- Content -->
+  <div class="container">  
+    <!-- Text "A jak to działa" -->
+    <div class="content" id="priceList">
+      <div class="col m12">
+        <h1>Skontaktuj się z nami</h1>
+        <p>Z przyjemnością odpowiemy na każde Twoje pytanie. Pisz i dzwoń do nas. Nie krępuj się, nie gryziemy!</p>
+      </div>  
+    
+    <div class="col m12" style="margin: 128px 0px;">
+      <p class="text-info-small">Hauz.app - usługi projektowe</p>
+      <p>tel.: +48 123 456 789</p>
+      <p>email: info@hauz.app</p>
+    </div>  
+    <div>
+      <div class="col m6 photo-right">
+        <h2 style="margin-top: 0;">Skorzystaj z naszego formularza</h2>
+        <p>Nie martw się, na pewno odpiszemy!</p>
+      </div>
+      <div class="col m6 photo-right">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="hidden" name="accessKey" value="64e039e3-0b25-4088-bad0-1b3295eaa2a1">
+          <input  class="input border" type="text" name="email" placeholder="Twój adres email" required>
+          <textarea class="input-textarea border" cols="30" rows="10" placeholder="Cześć! Chciałbym zapytać o ..." name="message-from-contactpage"></textarea>
+          <input type="hidden" name="redirectTo" value="https://hauz.app/succsess.html">
+          <input class="margin-top black color1-bg button button-form text-button" type="submit" value="wyślij" />
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="gray gray-bg " style="overflow: hidden;">
+    <div class="footer">
+      <div class="normal col m4 footer-col">
+        <a href="./main.html" class="text-info-small text-footer-logo gray">Hauz.app</a>
+        <p class="text-footer">Stworzysz tutaj projekt wymarzonego domu i uzyskasz niezbędne dokumenty do rozpoczęcia budowy. Sprawdź naszą ofertę już teraz!</p>
+        <a href="./price-list.html" class="black color1-bg button text-button">Sprawdź ofertę</a>
+      </div>
+      <div class="normal col m4 footer-links">
+        <p class="text-footer">
+          Usługi<br>
+          <a href="./service.html" class="text-link">- Lite</a><br>
+          <a href="./service.html" class="text-link">- Starter</a><br>
+          <a href="./service.html" class="text-link">- End2End</a><br>
+          <a href="./price-list.html" class="text-link">- Cennik</a><br>
+        </p>
+        <p class="text-footer">
+          Blog<br>
+          <a href="./blog.html" class="text-link">- Blog</a><br>
+        </p>
+      </div>
+      <div class="normal col m4 footer-links">
+        <p class="text-footer">
+          O nas<br>
+          <a href="./about-us.html" class="text-link">- Sposób pracy</a><br>
+        </p>
+        <p class="text-footer">
+          Firma<br>
+          <a href="./contact.html" class="text-link">- Kontakt</a><br>
+          <a href="./upss.html" class="text-link">- Polityka prywatności</a><br>
+          <a href="./upss.html" class="text-link">- Regulamin</a><br>
+        </p>
+      </div>
+    </div>
+    <div class="footer-gray text-footer-info normal col m12 text-center" style="width: 100%;">
+      <p>Copyright 2022 Hauz.app. Wszelkie prawa zastrzeżone Strona korzysta z plików cookies zgodnie z polityką prywatności.</p>
+    </div>
+  </footer>
+  <script src="code/code.js"></script>
+</body>
+</html>
+
+<!--To do:
+    zrobic reszte stron! (main)
+    -poprawic button przy przy form
+    -ustawic na srodku przycisk przy check-offer
+-->

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hauz.app - projektowanie autorskich domów</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navibar -->
+  <div class="position-top black-bg">
+    <div class="position-left padding32">
+      <a href="./main.html" class=" white text-logo padding-center" style="position: relative;">
+        Hauz.app
+      </a>
+    </div>
+    <div class="position-right full-height padding16 hide-small hide-medium">
+      <a href="./about-us.html" class="white button-navibar">O NAS</a>
+      <a href="./service.html" class="white button-navibar">USŁUGI</a>
+      <a href="./price-list.html" class="white button-navibar">CENNIK</a>
+      <a href="./contact.html" class="white button-navibar">KONTAKT</a>
+      <a href="./blog.html" class="white button-navibar">BLOG</a>
+    </div>
+    <div class="position-right dropdown hide-large">
+        <a href="javascript:void(0)" onclick="openMenu()" class="white button-navibar" id="hamburger">
+          MENU
+        </a>
+    </div>
+    <nav class="black-bg menu-text hide-large dropdown-content" id="dropdownMenu">
+      <a href="./about-us.html" class="white button-navibar">-O NAS</a>
+      <a href="./service.html" class="white button-navibar">-USŁUGI</a>
+      <a href="./price-list.html" class="white button-navibar">-CENNIK</a>
+      <a href="./contact.html" class="white button-navibar">-KONTAKT</a>
+      <a href="./blog.html" class="white button-navibar">-BLOG</a>
+    </nav>
+  </div>
+
+
+  <!-- Header -->
+  <div class="whole-display">  
+    <div class="container">
+      <header class="content middle-display" style="max-width: 1270px;">
+        <div class="col m4 photo-right">
+          <h1>Zaprojektuj swój dom z domu</h1>
+          <p class="text-header">
+            Hauz.app to platforma do uzyskania pozwolenia na budowę wymarzonego domu.
+          </p>
+          <p class="text-header">
+            Projektuj, zarządzaj, decyduj. Oto centrum Twojego przyszłego domu!
+          </p>
+          <p>
+            <a href="#jak-dziala" class="margin-top black color1-bg button text-button">Dowiedz się więcej</a>
+          </p>
+        </div>
+        <div class="col m8 photo-right">
+          <img class="img" src="img/main_logo.png" alt="XXX" width="700" height="394">
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="container">  
+    <!-- Text "A jak to działa" -->
+    <div class="content" id="jak-dziala">
+      <div class="col m12">
+        <h2>A jak to działa?</h2>
+        <p>Chcesz zrobić krok w kierunku własnego domu nie ruszając się z kanapy? To dobrze trafiłeś! hauz.app to aplikacja, która została stworzona właśnie w tym celu.</p>
+        <p>Wysyłasz nam niezbędne dokumenty, a my odsyłamy Ci gotowy projekt Twojego domu z pozwoleniem na budowę.</p>
+        <p>W stu procentach internetowo, z pozwoleniem na budowę w skrzynce na listy.</p>
+        <p>Masz dostęp do całego procesu w jednym miejscu. Załatwisz sprawę w dogodnym dla siebie momencie. Po pracy, najmniejszym kosztem, w całości zdalnie.</p>
+        <p>
+          <a href="./service.html" class="margin-top black color1-bg button text-button">więcej</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Left text - "Zaprojektuj kazdy metr" -->
+    <div class="content" id="kazdy-metr">
+        <div class="col m6 photo-right">
+          <h2>Zaprojektuj kazdy metr</h2>
+          <p>Najskuteczniejszym sposobem na zaoszczędzenie przy budowie domu to budowa domu zaprojektowanego pod siebie.Odpowiednio zaprojektowana przestrzeń pod Twoje potrzeby pozwoli uniknąć Ci dodatkowych kosztów. Pokażemy Ci jak najlepiej wykorzystać Twój budżet na dom.</p>
+        </div>
+        <div class="col m6 photo-right">
+          <p class="text-info-big">5000 zł/m<sup>2</sup></p>
+          <p class="text-info-small">średnia cena wybudowania metra kwadratowego domu w Polsce</p>
+        </div>
+    </div>
+
+    <!-- Right text - "Zaoszczedz swoj czas" -->
+    <div class="content" id="czas">
+      <div class="col m6 photo-left">
+        <h2>Zaoszczędź swój czas</h2>
+        <p>Dostaniesz więcej niż projekt. Załatwimy wszystkie formalności związane z pozwoleniem na budowę. Załatw wszystko zdalnie nie ruszając się z fotela, a resztę czasu poświęć na to co kochasz.</p>
+        <p>
+          <a href="./service.html" class="margin-top black color1-bg button text-button">więcej</a>
+        </p>
+      </div>
+      <div class="col m6 photo-left">
+        <img class="img" src="img/time_logo.png" alt="XXX" width="700" height="394">
+      </div>
+    </div>
+
+    <!-- Left text - "Wykorzystaj potege technologii" -->
+    <div class="content" id="technologia">
+      <div class="col m6 photo-right">
+        <h2>Wykorzystaj potęgę technologii</h2>
+        <p>W naszych projektach korzystamy z programów w technologii BIM. Dzięki temu pracujemy przy wirtualnym modelu, dając Tobie informacje na temat ilości materiałów, kosztów i wiele więcej już na etapie projektowania.</p>
+        <p>
+          <a href="./about-us.html" class="margin-top black color1-bg button text-button">więcej</a>
+        </p>
+      </div>
+      <div class="col m6 photo-right">
+        <img class="img" src="img/bim_logo.png" alt="XXX" width="700" height="394">
+      </div>
+    </div>
+
+    <!-- Right text - "Dbajmy o środowisko razem" -->
+    <div class="content" id="srodowisko">
+      <div class="col m6 photo-left">
+        <h2>Dbajmy o środowisko razem</h2>
+        <p>Ekologicznie czy ekonomicznie? Zadbamy za Ciebie, żeby Twój dom był przyjazny środowisku i Twojej kieszeni. Wykorzystujemy w naszych projektach odnawialne źródła energii, rozwiązania oszczędzające wodę, rekuperację oraz wiele innych. przeanalizujemy które z nich biorąc pod uwagę Twój budżet.</p>
+        <!-- <p>
+          <a href="./upss.html" class="margin-top black color1-bg button text-button">więcej</a>
+        </p> -->
+      </div>
+      <div class="col m6 photo-left">
+        <img class="img" src="img/eco_logo.png" alt="XXX" width="700" height="394">
+      </div>
+    </div>
+
+    <!-- Center text - "Co nas wyroznia" -->
+    <div class="content" id="atributes">
+      <div class="col m12">
+        <h2 class="text-center">Co nas wyróżnia?</h2>
+      </div>
+      <div class="position-center">
+        <div class="normal col m4">
+          <img class="image" src="img/iarp.png" alt="XXX" width="150" height="150">
+          <h3 class="text-title">Uprawnienia projektowe</h3>
+          <p>Wszyscy nasi architekci posiadają uprawnienia i są członkami Izby Architektów Reczypospolitej Polskiej. Możesz nas sprawdzić na krajowej stronie IARP.</p>
+        </div>
+        <div class="normal col m4">
+          <img class="image" src="img/all-in-one.svg" alt="XXX" width="150" height="150">
+          <h3 class="text-title">Wszystko w jednym miejscu</h3>
+          <p>Przeglądaj i sprawdzaj status wszystkich dokumentów, materiałów i rysunków niezależnie od branży czy urzędu.</p>
+        </div>
+        <div class="normal col m4">
+          <img class="image" src="img/fast.svg" alt="XXX" width="150" height="150">
+          <h3 class="text-title">Szybko lecz dopasowanie</h3>
+          <p>Znasz każdy termin pojawienia się nowej zawartości lecz sam decydujesz kiedy jesteś gotowy przejść dalej.</p>
+        </div>
+      </div>
+      <div class="position-center">
+        <div class="normal col m4">
+          <img class="image" src="img/idea.svg" alt="XXX" width="150" height="150">
+          <h3 class="text-title">Od myśli do dzieła</h3>
+          <p>Jesteś aktywnym uczestnikiem każdego etapu projektowego. Sam decydujesz o zmianach i akceptacji poszczegółnych etapów.</p>
+        </div>
+        <div class="normal col m4">
+          <img class="image" src="img/hammer.svg" alt="XXX" width="150" height="150">
+          <h3 class="text-title">Rozwiązanie Twoich potrzeb</h3>
+          <p>Wprowadź dodatkowe instalacje na etapie projektu, unikając rozwiązywania problemów na budowie.</p>
+        </div>
+        <div class="normal col m4">
+          <img class="image" src="img/check.svg" alt="XXX" width="150" height="150">
+          <h3 class="text-title">Ekonomicznie czy
+            ekologicznie</h3>
+          <p>Sam decydujesz o swoich potrzebach, my zadbamy o ich realizację</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left text - "Zacznij już teraz swoją nową przygodę" -->
+    <div class="content" id="check-offer">
+      <div class="col m6 photo-right">
+        <h2>Zacznij już teraz swoją nową przygodę</h2>
+        <p>Teraz już wiesz ile zyskasz wybierając projekt na naszej stronie. Pamiętaj te, że możesz też w każdej chwili zrezygnować z dalszej współpracy. Zapłacisz tylko za zrealizowany zakres prac, a my przekażemy Ci go do dalszej dyspozycji.</p>
+      </div>
+      <div class="col m6 photo-right" style="height: 100%;">
+          <a href="./price-list.html" class="margin-button black color1-bg button-whole-div text-button">
+              Sprawdź ofertę
+          </a>
+      </div>
+    </div>
+
+    <!-- Right text - "Masz jakieś pytania?" -->
+    <div class="content" id="contact-form">
+      <div class="col m6 photo-left">
+        <h2>Masz jakieś pytania?</h2>
+        <p>Napisz do Nas, odpowiemy na każde Twoje pytanie.</p>
+      </div>
+      <div class="col m6 photo-left">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="hidden" name="accessKey" value="64e039e3-0b25-4088-bad0-1b3295eaa2a1">
+          <input  class="input border" type="text" name="email" placeholder="Twój adres email" required>
+          <textarea class="input-textarea border" cols="30" rows="10" placeholder="Cześć! Chciałbym zapytać się o ..." name="message-from-mainpage"></textarea>
+          <input type="hidden" name="redirectTo" value="https://hauz.app/succsess.html">
+          <input class="margin-top black color1-bg button button-form text-button" type="submit" value="wyślij" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="gray gray-bg " style="overflow: hidden;">
+    <div class="footer">
+      <div class="normal col m4 footer-col">
+        <a href="./main.html" class="text-info-small text-footer-logo gray">Hauz.app</a>
+        <p class="text-footer">Stworzysz tutaj projekt wymarzonego domu i uzyskasz niezbędne dokumenty do rozpoczęcia budowy. Sprawdź naszą ofertę już teraz!</p>
+        <a href="./price-list.html" class="black color1-bg button text-button">Sprawdź ofertę</a>
+      </div>
+      <div class="normal col m4 footer-links">
+        <p class="text-footer">
+          Usługi<br>
+          <a href="./service.html" class="text-link">- Lite</a><br>
+          <a href="./service.html" class="text-link">- Starter</a><br>
+          <a href="./service.html" class="text-link">- End2End</a><br>
+          <a href="./price-list.html" class="text-link">- Cennik</a><br>
+        </p>
+        <p class="text-footer">
+          Blog<br>
+          <a href="./blog.html" class="text-link">- Blog</a><br>
+        </p>
+      </div>
+      <div class="normal col m4 footer-links">
+        <p class="text-footer">
+          O nas<br>
+          <a href="./about-us.html" class="text-link">- Sposób pracy</a><br>
+        </p>
+        <p class="text-footer">
+          Firma<br>
+          <a href="./contact.html" class="text-link">- Kontakt</a><br>
+          <a href="./upss.html" class="text-link">- Polityka prywatności</a><br>
+          <a href="./upss.html" class="text-link">- Regulamin</a><br>
+        </p>
+      </div>
+    </div>
+    <div class="footer-gray text-footer-info normal col m12 text-center" style="width: 100%;">
+      <p>Copyright 2022 Hauz.app. Wszelkie prawa zastrzeżone Strona korzysta z plików cookies zgodnie z polityką prywatności.</p>
+    </div>
+  </footer>
+  <script src="code/code.js"></script>
+</body>
+</html>
+
+<!--To do:
+    -footer poprawic linki
+-->
